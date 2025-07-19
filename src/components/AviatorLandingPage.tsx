@@ -14,7 +14,7 @@ const AviatorLandingPage: React.FC = () => {
             {/* App Icon */}
             <div className="w-24 h-24 rounded-2xl overflow-hidden flex-shrink-0">
               <img 
-                src="/lovable-uploads/75f7deac-19b4-4604-9725-48a4fe6d8206.png" 
+                src="/lovable-uploads/e67f0e10-c763-464f-8d18-642b9e053cd9.png" 
                 alt="Aviator Game" 
                 className="w-full h-full object-cover"
               />
@@ -39,41 +39,37 @@ const AviatorLandingPage: React.FC = () => {
           <div className="flex items-center gap-8 mt-6 mb-6">
             <div className="text-center">
               <div className="flex items-center gap-1 mb-1">
-                <span className="text-sm font-medium">4.9</span>
+                <span className="text-sm font-medium text-gray-900">4.9</span>
                 <Star className="w-4 h-4 text-yellow-500 fill-current" />
               </div>
-              <p className="text-xs text-gray-600">19K reviews</p>
+              <p className="text-xs text-gray-900 font-medium">19K reviews</p>
             </div>
             
             <div className="text-center">
-              <p className="text-sm font-medium mb-1">500K+</p>
-              <p className="text-xs text-gray-600">Downloads</p>
+              <p className="text-sm font-medium mb-1 text-gray-900">500K+</p>
+              <p className="text-xs text-gray-900 font-medium">Downloads</p>
             </div>
             
             <div className="text-center flex flex-col items-center">
-              <Shield className="w-4 h-4 text-gray-600 mb-1" />
-              <p className="text-xs text-gray-600">Editors' Choice</p>
+              <Shield className="w-4 h-4 text-gray-700 mb-1" />
+              <p className="text-xs text-gray-900 font-medium">Editors' Choice</p>
             </div>
             
             <div className="text-center">
               <div className="border border-gray-300 rounded px-2 py-1 mb-1">
-                <span className="text-xs font-medium">18+</span>
+                <span className="text-xs font-medium text-gray-900">18+</span>
               </div>
-              <p className="text-xs text-gray-600">Rated for 18+</p>
+              <p className="text-xs text-gray-900 font-medium">Rated for 18+</p>
             </div>
           </div>
 
           {/* Action Buttons */}
-          <div className="flex gap-3 mb-4">
-            <Button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-medium flex-1">
-              Install
-            </Button>
-            <Button variant="outline" className="px-4 py-3 rounded-lg border-gray-300">
-              <Share className="w-5 h-5" />
-            </Button>
-            <Button variant="outline" className="px-4 py-3 rounded-lg border-gray-300 text-green-600 border-green-600">
-              Add to wishlist
-            </Button>
+          <div className="mb-4">
+            <img 
+              src="/lovable-uploads/b589115d-79b5-42ed-8984-550a4e81300a.png" 
+              alt="Install and Wishlist buttons" 
+              className="w-full max-w-md"
+            />
           </div>
 
           {/* Device Compatibility */}
@@ -87,66 +83,44 @@ const AviatorLandingPage: React.FC = () => {
       {/* Screenshots Section */}
       <div className="max-w-4xl mx-auto px-4 py-6">
         <div className="flex gap-3 overflow-x-auto pb-4">
-          <div className="w-48 h-96 bg-black rounded-2xl flex-shrink-0 overflow-hidden relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-black">
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-                <div className="text-white text-3xl font-bold mb-2">1.26x</div>
-                <div className="text-red-500 text-lg font-bold">Aviator</div>
-              </div>
-              <div className="absolute bottom-4 left-4 right-4">
-                <div className="bg-green-600 text-white text-center py-2 rounded text-sm font-medium mb-2">
-                  BET
-                </div>
-              </div>
-            </div>
+          <div className="w-48 h-96 rounded-2xl flex-shrink-0 overflow-hidden">
+            <img 
+              src="/lovable-uploads/357e6d7c-7d9f-4393-962a-8a17f9951707.png" 
+              alt="Aviator Game Screenshot" 
+              className="w-full h-full object-cover"
+            />
           </div>
 
-          <div className="w-48 h-96 bg-black rounded-2xl flex-shrink-0 overflow-hidden relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-black">
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-                <div className="text-white text-3xl font-bold mb-2">21x</div>
-                <div className="text-red-500 text-lg font-bold">Aviator</div>
-              </div>
-              <div className="absolute bottom-4 left-4 right-4">
-                <div className="bg-red-600 text-white text-center py-2 rounded text-sm font-medium mb-2">
-                  CASH OUT
-                </div>
-              </div>
-            </div>
+          <div className="w-48 h-96 rounded-2xl flex-shrink-0 overflow-hidden">
+            <img 
+              src="/lovable-uploads/8aeb53cf-f270-4862-a6c2-db517484db59.png" 
+              alt="Aviator Game Screenshot" 
+              className="w-full h-full object-cover"
+            />
           </div>
 
-          <div className="w-48 h-96 bg-black rounded-2xl flex-shrink-0 overflow-hidden relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-black flex flex-col items-center justify-center">
-              <div className="text-white text-3xl font-bold mb-2">12.16x</div>
-              <div className="text-center text-white text-sm mb-4">
-                <div className="mb-2">WELCOME BONUS</div>
-                <div className="text-yellow-400 text-2xl font-bold">+500%</div>
-                <div className="text-xs">UP TO 150000₹</div>
-              </div>
-            </div>
+          <div className="w-48 h-96 rounded-2xl flex-shrink-0 overflow-hidden">
+            <img 
+              src="/lovable-uploads/d157a601-3eef-4577-a3e8-407f288bdc18.png" 
+              alt="Aviator Game Screenshot" 
+              className="w-full h-full object-cover"
+            />
           </div>
 
-          <div className="w-80 h-96 bg-black rounded-2xl flex-shrink-0 overflow-hidden relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-black flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-red-500 text-6xl font-bold mb-4 transform -rotate-12">Aviator</div>
-                <div className="text-white text-2xl font-bold">5.21x</div>
-              </div>
-            </div>
+          <div className="w-80 h-96 rounded-2xl flex-shrink-0 overflow-hidden">
+            <img 
+              src="/lovable-uploads/543e8b4b-395e-4c95-934f-77ed58becde4.png" 
+              alt="Aviator Game Screenshot" 
+              className="w-full h-full object-cover"
+            />
           </div>
 
-          <div className="w-48 h-96 bg-black rounded-2xl flex-shrink-0 overflow-hidden relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-red-900 to-black">
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-                <div className="text-white text-3xl font-bold mb-2">12.16x</div>
-                <div className="text-red-500 text-lg font-bold">Aviator</div>
-              </div>
-              <div className="absolute bottom-4 left-4 right-4">
-                <div className="bg-red-600 text-white text-center py-2 rounded text-sm font-medium mb-2">
-                  CASH OUT
-                </div>
-              </div>
-            </div>
+          <div className="w-80 h-96 rounded-2xl flex-shrink-0 overflow-hidden">
+            <img 
+              src="/lovable-uploads/aa0a12f0-a3c9-4f04-b8f3-719154aac77e.png" 
+              alt="Aviator Game Screenshot" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
@@ -251,9 +225,10 @@ const AviatorLandingPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Review */}
-        <div className="border-t pt-6">
-          <div className="flex items-start gap-3 mb-4">
+        {/* Reviews */}
+        <div className="space-y-6 border-t pt-6">
+          {/* Review 1 */}
+          <div className="flex items-start gap-3">
             <div className="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white font-medium text-sm">
               U
             </div>
@@ -274,7 +249,7 @@ const AviatorLandingPage: React.FC = () => {
                 <span className="text-xs text-gray-600">July 19, 2025</span>
               </div>
               
-              <p className="text-sm text-gray-700 mb-4">
+              <p className="text-sm text-gray-800 mb-4">
                 It's working fast. I withdrawal 2500 rs in 10 minut
               </p>
               
@@ -292,7 +267,6 @@ const AviatorLandingPage: React.FC = () => {
                 </Button>
               </div>
               
-              {/* Developer Response */}
               <div className="bg-gray-50 rounded-lg p-4">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-sm font-medium text-gray-900">Casino Apps</span>
@@ -301,6 +275,133 @@ const AviatorLandingPage: React.FC = () => {
                 <p className="text-sm text-gray-700">
                   Thanks you for your positive feedback! We're thrilled to hear that you enjoyed the game. Keep spinning and have a fantastic time!
                 </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Review 2 */}
+          <div className="flex items-start gap-3">
+            <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white font-medium text-sm">
+              R
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-medium text-gray-900">Rohit Kumar</h3>
+                <button className="text-gray-400">
+                  <MoreVertical className="w-4 h-4" />
+                </button>
+              </div>
+              
+              <div className="flex items-center gap-2 mb-3">
+                <div className="flex gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-3 h-3 text-green-600 fill-current" />
+                  ))}
+                </div>
+                <span className="text-xs text-gray-600">July 18, 2025</span>
+              </div>
+              
+              <p className="text-sm text-gray-800 mb-4">
+                Best app for earning money! Got 5000rs in one day. Highly recommended!
+              </p>
+              
+              <div className="flex items-center gap-4 mb-4">
+                <span className="text-xs text-gray-600">342 people found this review helpful</span>
+              </div>
+              
+              <div className="flex items-center gap-2">
+                <span className="text-sm text-gray-700">Did you find this helpful?</span>
+                <Button variant="outline" size="sm" className="text-xs px-4 py-1 h-8 rounded-full">
+                  Yes
+                </Button>
+                <Button variant="outline" size="sm" className="text-xs px-4 py-1 h-8 rounded-full">
+                  No
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          {/* Review 3 */}
+          <div className="flex items-start gap-3">
+            <div className="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center text-white font-medium text-sm">
+              P
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-medium text-gray-900">Priya Sharma</h3>
+                <button className="text-gray-400">
+                  <MoreVertical className="w-4 h-4" />
+                </button>
+              </div>
+              
+              <div className="flex items-center gap-2 mb-3">
+                <div className="flex gap-1">
+                  {[...Array(4)].map((_, i) => (
+                    <Star key={i} className="w-3 h-3 text-green-600 fill-current" />
+                  ))}
+                  <Star className="w-3 h-3 text-gray-300" />
+                </div>
+                <span className="text-xs text-gray-600">July 17, 2025</span>
+              </div>
+              
+              <p className="text-sm text-gray-800 mb-4">
+                Good game but sometimes takes time to load. Overall experience is nice.
+              </p>
+              
+              <div className="flex items-center gap-4 mb-4">
+                <span className="text-xs text-gray-600">128 people found this review helpful</span>
+              </div>
+              
+              <div className="flex items-center gap-2">
+                <span className="text-sm text-gray-700">Did you find this helpful?</span>
+                <Button variant="outline" size="sm" className="text-xs px-4 py-1 h-8 rounded-full">
+                  Yes
+                </Button>
+                <Button variant="outline" size="sm" className="text-xs px-4 py-1 h-8 rounded-full">
+                  No
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          {/* Review 4 */}
+          <div className="flex items-start gap-3">
+            <div className="w-10 h-10 rounded-full bg-orange-500 flex items-center justify-center text-white font-medium text-sm">
+              A
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-medium text-gray-900">Amit Singh</h3>
+                <button className="text-gray-400">
+                  <MoreVertical className="w-4 h-4" />
+                </button>
+              </div>
+              
+              <div className="flex items-center gap-2 mb-3">
+                <div className="flex gap-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-3 h-3 text-green-600 fill-current" />
+                  ))}
+                </div>
+                <span className="text-xs text-gray-600">July 16, 2025</span>
+              </div>
+              
+              <p className="text-sm text-gray-800 mb-4">
+                Awesome app! Easy to use and withdraw money instantly. Love it!
+              </p>
+              
+              <div className="flex items-center gap-4 mb-4">
+                <span className="text-xs text-gray-600">267 people found this review helpful</span>
+              </div>
+              
+              <div className="flex items-center gap-2">
+                <span className="text-sm text-gray-700">Did you find this helpful?</span>
+                <Button variant="outline" size="sm" className="text-xs px-4 py-1 h-8 rounded-full">
+                  Yes
+                </Button>
+                <Button variant="outline" size="sm" className="text-xs px-4 py-1 h-8 rounded-full">
+                  No
+                </Button>
               </div>
             </div>
           </div>
