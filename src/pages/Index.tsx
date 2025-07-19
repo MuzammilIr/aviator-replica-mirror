@@ -1,8 +1,8 @@
 
-import AviatorGame from '@/components/AviatorGame';
+import AviatorLandingPage from '@/components/AviatorLandingPage';
 
 const Index = () => {
-  return <AviatorGame />;
+  return <AviatorLandingPage />;
 };
 
 export default Index;
