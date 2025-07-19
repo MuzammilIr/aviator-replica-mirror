@@ -63,13 +63,17 @@ const AviatorLandingPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Action Buttons */}
-          <div className="mb-4">
-            <img 
-              src="/lovable-uploads/b589115d-79b5-42ed-8984-550a4e81300a.png" 
-              alt="Install and Wishlist buttons" 
-              className="w-full max-w-md"
-            />
+          {/* Action Buttons - Made Bigger */}
+          <div className="mb-4 flex gap-4">
+            <Button className="bg-green-700 hover:bg-green-800 text-white px-8 py-4 text-lg font-medium rounded-lg flex-1 max-w-40 h-14">
+              Install
+            </Button>
+            <Button variant="outline" className="border-2 border-gray-300 text-gray-700 px-6 py-4 text-base font-medium rounded-lg h-14 min-w-32">
+              Add to wishlist
+            </Button>
+            <Button variant="ghost" className="p-4 h-14 w-14 rounded-lg">
+              <Share className="w-6 h-6 text-gray-600" />
+            </Button>
           </div>
 
           {/* Device Compatibility */}
